@@ -1,0 +1,32 @@
+@import "./css/nav.css";
+
+:root{
+    --bg-clr: #e5e5e5;
+    --primary-clr: #fca311;
+    --text: rgb(246, 246, 246);
+}
+
+.primary-clr{
+    background-color: var(--primary-clr);
+}
+
+.bg-clr{
+    background-color: var(--bg-clr);
+}
+
+/* font size */
+
+.font-size-1pt7{
+    font-size: 1.7rem;
+}
+
+.font-size-2pt6{
+    font-size: 2.6rem;
+}
+
+/* utility class */
+
+.p-rl-6{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
