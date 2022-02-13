@@ -1,5 +1,6 @@
 @import "./css/nav.css";
 @import "./css/home-page.css";
+@import "./css/login-signup.css";
 
 :root{
     --bg-clr: #e5e5e5;
@@ -31,6 +32,13 @@
 .font-size-2pt6{
     font-size: 2.6rem;
 }
+/* font-alignment */
+
+.txt-align-cntr{
+    text-align: center;
+}
+
+
 
 /* utility class */
 
@@ -43,6 +51,9 @@
     margin-top: 8rem;
 }
 
+.m-l-1{
+    margin-left: 1rem;
+}
 
 /* cards-modification */
 
