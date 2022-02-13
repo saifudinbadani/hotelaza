@@ -1,6 +1,7 @@
 @import "./css/nav.css";
 @import "./css/home-page.css";
 @import "./css/login-signup.css";
+@import "./css/wishlist.css";
 
 :root{
     --bg-clr: #e5e5e5;
