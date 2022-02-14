@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://we-fast-ui.netlify.app/shared.css">
+    <link rel="stylesheet" href="../common.css">
+    <title>Cart</title>
+</head>
+
+<body class="bg-clr">
+    <header class="header">
+        <nav class="nav-container display-flex primary-clr p-rl-6">
+            <a href="../index.html" class="nav-link font-size-2pt6">
+                Hotelaza
+            </a>
+            <div class="input-search pos-rltv m-rght-auto">
+                <i class="fa-solid fa-magnifying-glass pos-absolute font-size-2pt6"></i>
+                <input type="text" placeholder="search" class="nav-input-search">
+            </div>
+            <a href="../login-signup/login.html" class="nav-link"><button class="btn btn-solid-secondary">Login</button></a>
+            <a href="../wishlist/wishlist.html" class="nav-link">
+                <i class="fa-regular fa-heart font-size-2pt6"></i>
+            </a>
+            <a href="./cart.html" class="nav-link">
+                <i class="fas fa-shopping-cart font-size-2pt6"></i>
+            </a>
+        </nav>
+    </header>
+    <main class="cart-container">
+        <div class="my-cart heading-3 txt-align-cntr">
+            My Cart (<span class="cart-items-qty heading-3">2</span>)
+        </div>
+        <div class="cart-management display-flex justify-content-spce-arnd">
+            <div class="cart-items-card">
+                <div class="card-h display-flex">
+                    <div class="card-img-h">
+                        <img src="../assets/spa-homepage.jpg" alt="Denim Jacket">
+                    </div>
+                    <div class="card-content-h display-flex-c">
+                        <h3 class="card-title heading-3 fw-regular">Revive</h3>
+                        <small class="card-author">by Hotelaza</small>
+                        <p class="text-black heading-4 fw-bold">$260 <s class="card-text heading-4 fw-regular">$320</s>
+                        </p>
+                        <div class="card-items-qty">
+                            <span class="font-size-1pt4">Quantity:</span>
+                            <button class="btn card-items-plus-btn font-size-2pt6">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </button>
+                            <input type="text" name="input-quantity" id="card-items-qty-input"
+                                class="card-items-qty-input">
+                            <button class="btn card-items-minus-btn font-size-2pt6">
+                                <i class="fa-solid fa-circle-minus"></i>
+                            </button>
+
+                        </div>
+                        <div class="card-footer-h">
+                            <button class="card-btn btn btn-solid-secondary font-size-1pt4 width-100pcnt">Remove from
+                                Cart</button>
+                            <button class="card-btn btn btn-outline-secondary font-size-1pt4 width-100pcnt">Move to
+                                Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-h display-flex">
+                    <div class="card-img-h">
+                        <img src="../assets/dining-homepage.jpg" alt="Dining">
+                    </div>
+                    <div class="card-content-h display-flex-c">
+                        <h3 class="card-title heading-3 fw-regular">Atrium Buffet</h3>
+                        <small class="card-author">by Hotelaza</small>
+                        <p class="text-black heading-4 fw-bold">$600 <s class="card-text heading-4 fw-regular">$850</s>
+                        </p>
+                        <div class="card-items-qty">
+                            <span class="font-size-1pt4">Quantity:</span>
+                            <button class="btn card-items-plus-btn font-size-2pt6">
+                                <i class="fa-solid fa-circle-plus"></i>
+                            </button>
+                            <input type="text" name="input-quantity" id="card-items-qty-input"
+                                class="card-items-qty-input">
+                            <button class="btn card-items-minus-btn font-size-2pt6">
+                                <i class="fa-solid fa-circle-minus"></i>
+                            </button>
+
+                        </div>
+                        <div class="card-footer-h">
+                            <button class="card-btn btn btn-solid-secondary font-size-1pt4 width-100pcnt">Remove from
+                                Cart</button>
+                            <button class="card-btn btn btn-outline-secondary font-size-1pt4 width-100pcnt">Move to
+                                Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-details-card">
+                <div class="card display-flex-c  p-rl-1 width-40">
+                    <div class="card-content display-flex-c">
+                        <h3 class="card-title heading-3 m-t-1">Price Details</h3>
+                        <hr>
+                        <div class="cart-items-details">
+                            <div class="display-flex justify-content-spce-btwn m-t-1">
+                                <p class="heading-4"> Price (<span class="cart-items-qty heading-4">2 </span>items)</p>
+                                <p class="heading-4">$<span class="cart-items-price heading-4">320</span></p>
+                            </div>
+                            <div class="display-flex justify-content-spce-btwn m-t-1">
+                                <p class="heading-4"> Discount</p>
+                                <p class="heading-4">- $<span class="cart-items-discount heading-4">60</span></p>
+                            </div>
+                            <div class="display-flex justify-content-spce-btwn m-t-1">
+                                <p class="heading-4"> Delivery charges</p>
+                                <p class="heading-4">$<span class="cart-items-delivery heading-4">0</span></p>
+                            </div>
+                            <hr>
+                            <div class="display-flex justify-content-spce-btwn m-t-1">
+                                <p class="heading-4 fw-bold"> Total Amount</p>
+                                <p class="heading-4">$<span class="cart-items-total-amnt heading-4">260</span></p>
+                            </div>
+                        </div>
+                      
+                        <div class="card-footer">
+                            <button class="card-btn btn btn-solid-primary width-100pcnt">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
