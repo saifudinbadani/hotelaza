@@ -2,12 +2,14 @@
 @import "./css/home-page.css";
 @import "./css/login-signup.css";
 @import "./css/wishlist.css";
+@import "./css/cart.css";
 
 :root{
     --bg-clr: #e5e5e5;
     --primary-clr: #fca311;
     --text:rgb(240, 238, 238);
     --text-on-white: #8d8d8d;
+    --heading: #3f4041;
 }
 
 .primary-clr{
@@ -18,14 +20,26 @@
     background-color: var(--bg-clr);
 }
 
+/* flex properties */
+.align-content-cntr{
+    align-content: center;
+}
 
+.justify-content-spce-btwn{
+    justify-content: space-between;
+}
+.justify-content-spce-arnd{
+    justify-content: space-evenly;
+}
 /* display classes */
 .disp-grid{
     display: grid;
 }
 
 /* font size */
-
+.font-size-1pt4{
+    font-size: 1.4rem;
+}
 .font-size-1pt7{
     font-size: 1.7rem;
 }
@@ -33,13 +47,27 @@
 .font-size-2pt6{
     font-size: 2.6rem;
 }
+
+/* font-colour */
+
+.text-black{
+    color: var(--heading);
+}
+
 /* font-alignment */
 
 .txt-align-cntr{
     text-align: center;
 }
 
+/* size classes */
+.width-100pcnt{
+    width: 100%;
+}
 
+.width-40{
+    width: 40rem;
+}
 
 /* utility class */
 
@@ -48,8 +76,16 @@
     padding-right: 6rem;
 }
 
+.p-rl-1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .m-t-8{
     margin-top: 8rem;
+}
+.m-t-1{
+    margin-top: 1rem;
 }
 
 .m-l-1{
