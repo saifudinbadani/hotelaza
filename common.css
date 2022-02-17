@@ -20,6 +20,9 @@
 .bg-clr{
     background-color: var(--bg-clr);
 }
+.clr-text-on-white{
+    color: var(--text-on-white);
+}
 
 /* flex properties */
 .align-content-cntr{
