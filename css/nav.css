@@ -15,3 +15,10 @@
     border: none;
 }
 
+.nav-container > .nav-link-cta{
+    color: var(--cta-clr);
+}
+
+.nav-link-cta:hover{
+    text-decoration: underline;
+}
