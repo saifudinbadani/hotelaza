@@ -3,6 +3,7 @@
 @import "./css/login-signup.css";
 @import "./css/wishlist.css";
 @import "./css/cart.css";
+@import "./css/product-listing.css";
 
 :root{
     --bg-clr: #e5e5e5;
@@ -24,6 +25,14 @@
 .align-content-cntr{
     align-content: center;
 }
+.align-items-cntr{
+    align-items: center;
+}
+
+.align-items-flx-start{
+    align-items: flex-start;
+}
+
 
 .justify-content-spce-btwn{
     justify-content: space-between;
