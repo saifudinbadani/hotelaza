@@ -22,7 +22,10 @@ An e-commerce platform for hotels, providing facilities like room booking, exclu
 
 
 ## How it looks?
+<img src="./assets/readme/ss-home-page.png" alt="cart" width="600"/>
 <img src="./assets/readme/ss-cart.png" alt="cart" width="600"/>
+<img src="./assets/readme/ss-login.png" alt="cart" width="600"/>
+<img src="./assets/readme/ss-products-listing.png" alt="cart" width="600"/>
 
 
 
