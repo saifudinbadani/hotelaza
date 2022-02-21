@@ -22,8 +22,8 @@ An e-commerce platform for hotels, providing facilities like room booking, exclu
 
 
 ## How it looks?
+<img src="./assets/readme/ss-cart.png" alt="cart" width="200"/>
 
-Insert gif or link to demo
 
 
 ## Features
